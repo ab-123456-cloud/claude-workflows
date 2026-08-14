@@ -13,7 +13,7 @@ plugin and nothing else is required.
 
 ```mermaid
 flowchart TD
-    EF["/execute-flow"] --> P1["1 · Sharpen<br/>six-point brief, agreed"]
+    EF["/execute-flow"] --> P1["1 · Sharpen<br/>six-point brief, agreed<br/>+ TOSCA when it is a problem, not a deliverable"]
     P1 --> P2["2 · Route"]
     P2 --> P3["3 · Staffing"]
     P3 ==>|automatic check| FF{{"frugal-frontier<br/>keep judgment on the top model,<br/>delegate the rest"}}
@@ -120,6 +120,7 @@ do have these installed, `execute-flow` will hand off to them:
 | `research` | Background agent that reads primary sources and files one cited Markdown file |
 | `prototype` | Throwaway code that answers exactly one design question |
 | `/wayfinder` | Charting work too big for one session as a map of decision tickets |
+| `/entscheidungsvorlage` | Turning an idea into a one-pager a named decider can say yes or no to |
 | `/writing-great-skills` | Writing or reworking a skill |
 
 These are not vendored here — nothing in this repo depends on them, and there
