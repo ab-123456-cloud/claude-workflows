@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+
+# lokaler Anonymisierungs-Hook (haengt an der privaten Wortliste, nicht teilbar)
+.githooks/
