@@ -25,7 +25,7 @@ flowchart TD
     P4 -.->|optional| SW["session-wrap<br/>land it in files"]
 ```
 
-Start with `/execute-flow`; type `/start-here` first when you are not sure
+Start with `/execute-flow`; type `/ask-flow` first when you are not sure
 which skill fits. An empty Route phase is the normal case, not a gap. The map
 below lists all eight skills, how each is invoked, and where it attaches to
 the arc — including `/tournament`, which `execute-flow` can name as a route
@@ -36,7 +36,7 @@ but never start: you type it yourself.
 | Skill | Invocation | Reached from |
 | --- | --- | --- |
 | `execute-flow` | `/execute-flow` (user-invoked) | entry point — the spine itself |
-| `start-here` | `/start-here` (user-invoked) | entry point — router over the other seven |
+| `ask-flow` | `/ask-flow` (user-invoked) | entry point — router over the other seven |
 | `grilling` | model-invoked (or say "grill me") | Route — the plan is still in your head |
 | `scrutinize` | model-invoked (or say "tear this apart") | Route — something is already written |
 | `think-simple` | model-invoked (or say "MVP") | Route — scope is growing, not shipping |
@@ -55,7 +55,7 @@ models, and phase 1 is the cheapest place to fix that.
 **Reach for it when:** you sit down to work. Type it first, before describing
 the task in detail.
 
-### `/start-here` — the router
+### `/ask-flow` — the router
 **Buys you:** an answer to "which of these fits what I'm doing right now",
 without having to remember the set.
 **Reach for it when:** you know something here applies but not which.

@@ -1,12 +1,12 @@
 ---
-name: start-here
-description: Start here — which skill in this plugin fits the situation you are in, and how the set hangs together.
+name: ask-flow
+description: Ask the flow set — which skill in this plugin fits the situation you are in, and how the set hangs together.
 disable-model-invocation: true
 ---
 
-# Start Here
+# Ask Flow
 
-You will not remember every skill in this plugin. Start here instead.
+You will not remember every skill in this plugin. Ask this one instead.
 
 This plugin is one **spine** with **stations** on it and one policy layer underneath. Start at the spine; reach for a station directly when you already know which stretch of work you're in.
 
