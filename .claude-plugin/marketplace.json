@@ -8,7 +8,7 @@
       "name": "flow-skills",
       "source": "./plugins/flow-skills",
       "description": "A toolbox for working better and more effectively with Claude Code, all in English: session operating procedure (execute-flow), router over the set (start-here), decision-tree interview (grilling), adversarial artifact review (scrutinize), MVP cutting (think-simple), competing concept drafts with redline rounds (tournament), session landing and handover (session-wrap), and frontier-model delegation economics (frugal-frontier).",
-      "version": "0.13.4"
+      "version": "0.14.0"
     }
   ]
 }

@@ -1,7 +1,6 @@
 ---
 name: scrutinize
-description: Deep adversarial review of an idea, prompt, or draft — four passes ending in a referee report with a verdict.
-disable-model-invocation: true
+description: Deep adversarial review of a finished idea, prompt, or draft — four passes ending in a referee report with a verdict. Use when the user wants an artifact on the table taken apart — "tear this apart" / "nimm das auseinander", "poke holes", asks for an adversarial review or a verdict on a draft. Not for plain feedback requests, and not for ideas still in the author's head (that is grilling).
 ---
 
 # Scrutinize

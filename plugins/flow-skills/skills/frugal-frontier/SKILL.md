@@ -1,6 +1,6 @@
 ---
 name: frugal-frontier
-description: Use on a frontier-tier session when the work is token-heavy — many files, sources, or subagents. Judgment stays on the frontier; verifiable legwork goes to cheaper tiers. Triggers: "be efficient", "don't burn tokens", delegate/orchestrate subagents.
+description: Use on a frontier-tier session when the work is token-heavy — many files, sources, or subagents — including BEFORE the session itself pulls many files or sources into its own context. Judgment stays on the frontier; verifiable legwork goes to cheaper tiers. Triggers: "be efficient", "don't burn tokens", delegate/orchestrate subagents.
 ---
 
 # Frugal Frontier
