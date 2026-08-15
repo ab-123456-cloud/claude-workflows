@@ -28,9 +28,22 @@ The direct open question is the default. When it stalls, switch form:
 - **Scaling** — "How confident are you, 0–10? What would turn that 6 into an 8?" Converts vague unease into a difference you can question.
 - **Miracle** — "Overnight the problem is gone — what do you notice first?" For when I circle obstacles instead of outcomes. Sparingly.
 
-## Question faults — each with its repair
+## Cadence
 
-- **Steering** (suggestive, rhetorical, loaded) → the steer belongs in your visible recommendation, the question stays open.
+- **Follow on.** Build each question on what I just said, and refer to it. A question that could have been asked before my answer means you weren't listening to it.
+- **Vary the question word.** what · which · how · what makes · in what way · to what extent · through what · when · from where. A run of identical openers turns an interview into a form.
+- **Pause.** Leave thinking time — mine and yours. Silence after an answer is part of the method, not dead air to fill with the next question.
+
+## Question faults — three tiers, not one
+
+**Never — no repair exists:** inquisitorial or demagogic questions, which plant the answer they demand ("But you know perfectly well that…, don't you?"). Patrzek's ruling on these is a single word: never.
+
+**Avoid, with rare deliberate exceptions:** suggestive questions, marked by giveaway words (*doch, etwa, wahrscheinlich, nicht etwa*) and by tone. Only ever when consciously chosen and meant positively or humorously.
+
+**Repair — these are craft errors, fix and move on:**
+
+- **Self-answering** (the question runs so long it answers itself on the way) → the sharpest risk in *this* skill, because you are told to supply a recommendation. The recommendation goes *after* the question, visibly separate — never folded into it.
+- **Steering** (rhetorical, loaded) → the steer belongs in your visible recommendation, the question stays open.
 - **Bundling** (several questions in one) → one question, one answer, then the next.
 - **Bombardment** (firing before the last answer settled) → qualify the answer first, then aim the next question.
 - **"Why did you…"** (puts me in the dock) → "What was decisive for…", "What led to…".
