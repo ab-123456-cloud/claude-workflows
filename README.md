@@ -20,7 +20,7 @@ flowchart TD
     FF ==> WORK["the actual work"]
     WORK --> P4["4 · Rest point"]
     P2 -.->|optional| GR["grilling<br/>it is still in your head"]
-    P2 -.->|optional| SC["/scrutinize<br/>it is already written"]
+    P2 -.->|optional| SC["scrutinize<br/>it is already written"]
     P2 -.->|optional| TS["think-simple<br/>scope is growing"]
     P4 -.->|optional| SW["session-wrap<br/>land it in files"]
 ```
@@ -38,7 +38,7 @@ but never start: you type it yourself.
 | `execute-flow` | `/execute-flow` (user-invoked) | entry point — the spine itself |
 | `start-here` | `/start-here` (user-invoked) | entry point — router over the other seven |
 | `grilling` | model-invoked (or say "grill me") | Route — the plan is still in your head |
-| `scrutinize` | `/scrutinize` (user-invoked) | Route — something is already written |
+| `scrutinize` | model-invoked (or say "tear this apart") | Route — something is already written |
 | `think-simple` | model-invoked (or say "MVP") | Route — scope is growing, not shipping |
 | `frugal-frontier` | model-invoked | Staffing — not a station: an automatic check on top-tier models |
 | `session-wrap` | model-invoked (or say "wrap") | Rest point — land it in files |
@@ -67,13 +67,13 @@ is shared.
 **Reach for it when:** the plan is still in your head and you can feel it is
 half-formed. Say "grill me".
 
-### `/scrutinize` — attack the artefact
+### `scrutinize` — attack the artefact
 **Buys you:** four passes over something already written — steelman, verify the
 load-bearing assumptions, multi-lens attack, referee report — ending on a
 verdict it earned: sound, salvageable, or unsound.
 **Reach for it when:** a draft, concept or prompt is on the table and you want
-it broken before someone else breaks it. The split from `grilling`: that one
-interrogates *you*, this one works on *what is written*.
+it broken before someone else breaks it. Say "tear this apart". The split from
+`grilling`: that one interrogates *you*, this one works on *what is written*.
 
 ### `think-simple` — cut to what ships
 **Buys you:** one done-sentence and the smallest version that satisfies it
