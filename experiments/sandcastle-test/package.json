@@ -1,0 +1,19 @@
+{
+  "name": "sandcastle-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test src/",
+    "typecheck": "echo 'no typecheck configured (plain JS project)'",
+    "sandcastle": "tsx .sandcastle/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@ai-hero/sandcastle": "^0.12.0",
+    "tsx": "^4.23.12"
+  }
+}
